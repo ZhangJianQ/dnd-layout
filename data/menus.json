@@ -1,0 +1,67 @@
+[{
+    "index": "1",
+    "title":"基础",
+    "children": [{
+        "title": "布局",
+        "type": "layout"
+    },{
+        "title": "布局容器",
+        "type": "container"
+    },{
+        "title": "按钮",
+        "type": "button"
+    }]
+},{
+    "index": "2",
+    "title":"表单",
+    "children": [{
+        "title": "单选框",
+        "type": "radio"
+    },{
+        "title": "多选框",
+        "type": "checkbox"
+    },{
+        "title": "输入框",
+        "type": "input"
+    },{
+        "title": "计数器",
+        "type": "input-number"
+    },{
+        "title": "选择器",
+        "type": "select"
+    },{
+        "title": "开关",
+        "type": "switch"
+    },{
+        "title": "滑块",
+        "type": "slide"
+    },{
+        "title": "时间选择器",
+        "type": "time-select"
+    },{
+        "title": "日期选择器",
+        "type": "date-picker"
+    }]
+},{
+    "index": "3",
+    "title":"数据",
+    "children": [{
+        "title": "表格",
+        "type": "table"
+    },{
+        "title": "标签",
+        "type": "tag"
+    },{
+        "title": "进度条",
+        "type": "progress"
+    },{
+        "title": "树形控件",
+        "type": "tree"
+    },{
+        "title": "分页",
+        "type": "pagination"
+    },{
+        "title": "标记",
+        "type": "badge"
+    }]
+}]

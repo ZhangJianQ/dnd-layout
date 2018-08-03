@@ -8,7 +8,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin'),
 module.exports = {
     entry: { //指令文件入口，可以为多个入口，打包成多个文件
         main: './src/main.js',
-        vendor: ['jquery', 'vue', 'element-ui', 'lodash']
+        vendor: ['jquery', 'vue', 'vue-resource', 'element-ui', 'lodash']
     },
     externals: {
         "BMap": "BMap"

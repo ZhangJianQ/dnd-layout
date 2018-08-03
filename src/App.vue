@@ -4,10 +4,8 @@
 </template>
 
 <script>
-    import 'element-ui/lib/theme-default/index.css';
-
+    import './assets/css/reset.css';
     export default {
-        name: 'app',
         data () {
             return {
                 

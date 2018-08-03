@@ -1,10 +1,30 @@
 <template lang="pug">
-    el-row
-        el-col(:span="6")
-            | 左侧
-        el-col(:span="18")
+    el-container
+        el-aside(width="200px")
+            tools
+        el-container
+            el-main
+                main
+            el-aside(width="200px") aside
 </template>
 
 <script>
+    import Tools from './tools.vue';
+    import Main from './main.vue';
+
+    export default{
+        data(){
+            return{
+
+            }
+        },
+        methods:{
+
+        },
+        components:{
+            Tools,
+            Main
+        }
+    }
     
 </script>
